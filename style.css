@@ -111,3 +111,13 @@ p {
 div blockquote {
     margin: 24px;
 }
+
+.img-shadow {
+    border: 2px solid grey;
+    box-shadow: 5px 5px 4px 0px rgba(14, 14, 14, 0.7);
+}
+
+.float {
+    display: flex;
+    width: 720px;
+}
