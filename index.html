@@ -82,7 +82,7 @@
         For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF  works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million   globally.
     </blockquote>
 
-    <p>The <abbr title="World Healt Organization">WHO </abbr>was founded in <strong>1948</strong></p>
+    <p>The <abbr title="World Health Organization">WHO </abbr>was founded in <strong>1948</strong></p>
 
     <bdo dir="rtl">This it's not your average text</bdo>
 
@@ -178,11 +178,61 @@
 
 
     <div class="[ box ] [ center ] [ bg ] [ gap ]">
-        <h2>Iframe is <q>cool</q></h2>
-        <iframe src="http://127.0.0.1:5500/index.html#top" width="700px" height="400px" frameborder="0"></iframe>
+        <h2>Iframe Full website</h2>
+        <iframe src="http://127.0.0.1:5500/index.html#top" width="700px" height="400px" frameborder="0">this website</iframe>
     </div>
 
-    
+
+
+    <div class="[ box ] [ bg ] [ center ] [ gap ]">
+        <h2>Changing HTML with JavaScript</h2>
+        <p id="demo-text">I like learning</p>
+        <img id="img1" src="images/illustration-hero.svg" alt="">
+
+        <script>
+            document.getElementById('demo-text').innerHTML = "I love learning with";
+            document.getElementById('demo-text').style.fontSize = "35px";
+            document.getElementById('demo-text').style.color = "red";
+            document.getElementById('img1').src = "images/77673807.png"
+        </script>
+    </div>
+
+
+    <div class="[ center ] [ box ] [ bg ] [ gap ]">
+        <h2>HTML computercode</h2>
+        <p>Text example <code>let dogs = love</code></p>
+
+        <h4>Example II</h4>
+
+        <pre>
+            <code>
+                let dog = {
+                    race:"Pekinese",
+                    sex:"Female",
+                    age:"10";
+                } 
+            </code>
+        </pre>
+
+        <h3>Some math examle</h3>
+        <p> <var>x</var> = 3 * 2; </p>
+    </div>
+
+
+    <div class=" [ box ] [ bg ] [ center ] [ gap ]">
+        <h2>Building Forms</h2>
+        <form>
+            <input type="date">
+            <input type="file">
+            <input type="checkbox">
+            <input name="btn1" type="radio">
+            <input name="btn1" type="radio">
+            <input type="text" value="Enter username">
+            <input type="password" value="And password">
+            <textarea name="Enter required info" id="" cols="30" rows="5"></textarea>
+        </form>
+    </div>
+
 
     <script src="https://kit.fontawesome.com/2b24e01a42.js" crossorigin="anonymous"></script>
 </body>
