@@ -79,6 +79,10 @@ select {
   }
 }
 
+body {
+    background-color: #f2e1f5;
+}
+
 
 .center {
     display: flex;
@@ -89,9 +93,9 @@ select {
 }
 
 .box {
-    border: 2px solid lightgrey;
-    box-shadow: 2px 5px 4px 0px rgba(61, 60, 60, 0.4);
-    border-radius: 6px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid purple;
 }
 
 .gap {
@@ -99,7 +103,7 @@ select {
 }
 
 .bg {
-    background-color: #d1edf2;
+    background-color: white;
 }
 
 
@@ -120,4 +124,77 @@ div blockquote {
 .float {
     display: flex;
     width: 720px;
+}
+
+
+/* CONTACT FORM */
+/* CONTACT FORM */
+/* CONTACT FORM */
+
+.container {
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid purple;
+}
+
+.header {
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+
+.form {
+    padding: 25px 35px;
+}
+
+.form-control {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+.form-control i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+
+.form-control input {
+    border: 2px solid #f7f7f7;
+    border-radius: 4px;
+    display: block;
+    width: 250px;
+}
+
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+
+.form button {
+    background-color: rgb(74, 214, 74);
+    border: 2px solid lightgreen;
+    color: white;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 8px;
 }
